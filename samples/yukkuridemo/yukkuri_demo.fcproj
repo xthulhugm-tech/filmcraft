@@ -1,0 +1,1248 @@
+{
+  "format": "filmcraft.project",
+  "schema_version": 15,
+  "generator": "FilmCraft 0.12.0",
+  "project": {
+    "name": "yukkuri_demo",
+    "settings": {
+      "renderer": "FilmCraft GPU Acceleration (wgpu)",
+      "video_display": "Timecode",
+      "audio_display_samples": true,
+      "default_still_duration": 1270080000000,
+      "default_transition_duration_frames": 24,
+      "default_audio_transition_duration": 254016000000,
+      "ingest": {
+        "enabled": false,
+        "action": "createProxies",
+        "destination": null,
+        "preset": ""
+      },
+      "title_safe": [
+        20.0,
+        20.0
+      ],
+      "action_safe": [
+        10.0,
+        10.0
+      ],
+      "capture_format": "DV",
+      "scratch": {
+        "captured": null,
+        "videoPreviews": null,
+        "audioPreviews": null,
+        "autoSave": null
+      }
+    },
+    "root": {
+      "id": 0,
+      "name": "yukkuri_demo",
+      "children": [
+        {
+          "Bin": {
+            "id": 1,
+            "name": "Visuals",
+            "children": [
+              {
+                "Item": 5
+              },
+              {
+                "Item": 6
+              },
+              {
+                "Item": 7
+              },
+              {
+                "Item": 8
+              }
+            ]
+          }
+        },
+        {
+          "Bin": {
+            "id": 2,
+            "name": "Audio",
+            "children": [
+              {
+                "Item": 9
+              },
+              {
+                "Item": 10
+              },
+              {
+                "Item": 11
+              }
+            ]
+          }
+        },
+        {
+          "Bin": {
+            "id": 3,
+            "name": "Sequences",
+            "children": [
+              {
+                "Item": 21
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "items": {
+      "5": {
+        "id": 5,
+        "name": "background.png",
+        "label": "Iris",
+        "kind": {
+          "Media": {
+            "media": {
+              "File": {
+                "path": "c:/Users/xiom/Documents/company/ceo/products/rust/filmcraft/samples/yukkuridemo/assets/background.png"
+              }
+            },
+            "info": {
+              "name": "background.png",
+              "kind": "Still",
+              "duration": 2032128000000,
+              "video": {
+                "width": 1920,
+                "height": 1080,
+                "frame_rate": {
+                  "num": 30,
+                  "den": 1
+                },
+                "par": [
+                  1,
+                  1
+                ],
+                "codec": "PNG (image)",
+                "pixel_format": "RGBA 8-bit",
+                "color": {
+                  "matrix": "Bt709",
+                  "transfer": "Srgb",
+                  "primaries": "Bt709",
+                  "range": "Full"
+                },
+                "has_alpha": true,
+                "bitrate": null
+              },
+              "audio_streams": [],
+              "container": "Image",
+              "start_timecode": null,
+              "file_size": null
+            },
+            "interpret": {
+              "frame_rate": null,
+              "par": null,
+              "ignore_alpha": false,
+              "invert_alpha": false
+            },
+            "mark_in": null,
+            "mark_out": null,
+            "markers": [],
+            "offline": false,
+            "proxy": null
+          }
+        },
+        "metadata": {},
+        "created": 5
+      },
+      "6": {
+        "id": 6,
+        "name": "slide_topic.png",
+        "label": "Iris",
+        "kind": {
+          "Media": {
+            "media": {
+              "File": {
+                "path": "c:/Users/xiom/Documents/company/ceo/products/rust/filmcraft/samples/yukkuridemo/assets/slide_topic.png"
+              }
+            },
+            "info": {
+              "name": "slide_topic.png",
+              "kind": "Still",
+              "duration": 2032128000000,
+              "video": {
+                "width": 1280,
+                "height": 720,
+                "frame_rate": {
+                  "num": 30,
+                  "den": 1
+                },
+                "par": [
+                  1,
+                  1
+                ],
+                "codec": "PNG (image)",
+                "pixel_format": "RGBA 8-bit",
+                "color": {
+                  "matrix": "Bt709",
+                  "transfer": "Srgb",
+                  "primaries": "Bt709",
+                  "range": "Full"
+                },
+                "has_alpha": true,
+                "bitrate": null
+              },
+              "audio_streams": [],
+              "container": "Image",
+              "start_timecode": null,
+              "file_size": null
+            },
+            "interpret": {
+              "frame_rate": null,
+              "par": null,
+              "ignore_alpha": false,
+              "invert_alpha": false
+            },
+            "mark_in": null,
+            "mark_out": null,
+            "markers": [],
+            "offline": false,
+            "proxy": null
+          }
+        },
+        "metadata": {},
+        "created": 6
+      },
+      "7": {
+        "id": 7,
+        "name": "character_reimu.png",
+        "label": "Iris",
+        "kind": {
+          "Media": {
+            "media": {
+              "File": {
+                "path": "c:/Users/xiom/Documents/company/ceo/products/rust/filmcraft/samples/yukkuridemo/assets/character_reimu.png"
+              }
+            },
+            "info": {
+              "name": "character_reimu.png",
+              "kind": "Still",
+              "duration": 2032128000000,
+              "video": {
+                "width": 500,
+                "height": 800,
+                "frame_rate": {
+                  "num": 30,
+                  "den": 1
+                },
+                "par": [
+                  1,
+                  1
+                ],
+                "codec": "PNG (image)",
+                "pixel_format": "RGBA 8-bit",
+                "color": {
+                  "matrix": "Bt709",
+                  "transfer": "Srgb",
+                  "primaries": "Bt709",
+                  "range": "Full"
+                },
+                "has_alpha": true,
+                "bitrate": null
+              },
+              "audio_streams": [],
+              "container": "Image",
+              "start_timecode": null,
+              "file_size": null
+            },
+            "interpret": {
+              "frame_rate": null,
+              "par": null,
+              "ignore_alpha": false,
+              "invert_alpha": false
+            },
+            "mark_in": null,
+            "mark_out": null,
+            "markers": [],
+            "offline": false,
+            "proxy": null
+          }
+        },
+        "metadata": {},
+        "created": 7
+      },
+      "8": {
+        "id": 8,
+        "name": "character_marisa.png",
+        "label": "Iris",
+        "kind": {
+          "Media": {
+            "media": {
+              "File": {
+                "path": "c:/Users/xiom/Documents/company/ceo/products/rust/filmcraft/samples/yukkuridemo/assets/character_marisa.png"
+              }
+            },
+            "info": {
+              "name": "character_marisa.png",
+              "kind": "Still",
+              "duration": 2032128000000,
+              "video": {
+                "width": 500,
+                "height": 800,
+                "frame_rate": {
+                  "num": 30,
+                  "den": 1
+                },
+                "par": [
+                  1,
+                  1
+                ],
+                "codec": "PNG (image)",
+                "pixel_format": "RGBA 8-bit",
+                "color": {
+                  "matrix": "Bt709",
+                  "transfer": "Srgb",
+                  "primaries": "Bt709",
+                  "range": "Full"
+                },
+                "has_alpha": true,
+                "bitrate": null
+              },
+              "audio_streams": [],
+              "container": "Image",
+              "start_timecode": null,
+              "file_size": null
+            },
+            "interpret": {
+              "frame_rate": null,
+              "par": null,
+              "ignore_alpha": false,
+              "invert_alpha": false
+            },
+            "mark_in": null,
+            "mark_out": null,
+            "markers": [],
+            "offline": false,
+            "proxy": null
+          }
+        },
+        "metadata": {},
+        "created": 8
+      },
+      "9": {
+        "id": 9,
+        "name": "voice_01.wav",
+        "label": "Caribbean",
+        "kind": {
+          "Media": {
+            "media": {
+              "File": {
+                "path": "c:/Users/xiom/Documents/company/ceo/products/rust/filmcraft/samples/yukkuridemo/assets/voice_01.wav"
+              }
+            },
+            "info": {
+              "name": "voice_01.wav",
+              "kind": "AudioOnly",
+              "duration": 889056000000,
+              "video": null,
+              "audio_streams": [
+                {
+                  "sample_rate": 48000,
+                  "channels": 2,
+                  "codec": "PCM (synthetic)",
+                  "bits_per_sample": 16
+                }
+              ],
+              "container": "WAV",
+              "start_timecode": null,
+              "file_size": null
+            },
+            "interpret": {
+              "frame_rate": null,
+              "par": null,
+              "ignore_alpha": false,
+              "invert_alpha": false
+            },
+            "mark_in": null,
+            "mark_out": null,
+            "markers": [],
+            "offline": false,
+            "proxy": null
+          }
+        },
+        "metadata": {},
+        "created": 9
+      },
+      "10": {
+        "id": 10,
+        "name": "voice_02.wav",
+        "label": "Caribbean",
+        "kind": {
+          "Media": {
+            "media": {
+              "File": {
+                "path": "c:/Users/xiom/Documents/company/ceo/products/rust/filmcraft/samples/yukkuridemo/assets/voice_02.wav"
+              }
+            },
+            "info": {
+              "name": "voice_02.wav",
+              "kind": "AudioOnly",
+              "duration": 889056000000,
+              "video": null,
+              "audio_streams": [
+                {
+                  "sample_rate": 48000,
+                  "channels": 2,
+                  "codec": "PCM (synthetic)",
+                  "bits_per_sample": 16
+                }
+              ],
+              "container": "WAV",
+              "start_timecode": null,
+              "file_size": null
+            },
+            "interpret": {
+              "frame_rate": null,
+              "par": null,
+              "ignore_alpha": false,
+              "invert_alpha": false
+            },
+            "mark_in": null,
+            "mark_out": null,
+            "markers": [],
+            "offline": false,
+            "proxy": null
+          }
+        },
+        "metadata": {},
+        "created": 10
+      },
+      "11": {
+        "id": 11,
+        "name": "bgm.wav",
+        "label": "Caribbean",
+        "kind": {
+          "Media": {
+            "media": {
+              "File": {
+                "path": "c:/Users/xiom/Documents/company/ceo/products/rust/filmcraft/samples/yukkuridemo/assets/bgm.wav"
+              }
+            },
+            "info": {
+              "name": "bgm.wav",
+              "kind": "AudioOnly",
+              "duration": 2032128000000,
+              "video": null,
+              "audio_streams": [
+                {
+                  "sample_rate": 48000,
+                  "channels": 2,
+                  "codec": "PCM (synthetic)",
+                  "bits_per_sample": 16
+                }
+              ],
+              "container": "WAV",
+              "start_timecode": null,
+              "file_size": null
+            },
+            "interpret": {
+              "frame_rate": null,
+              "par": null,
+              "ignore_alpha": false,
+              "invert_alpha": false
+            },
+            "mark_in": null,
+            "mark_out": null,
+            "markers": [],
+            "offline": false,
+            "proxy": null
+          }
+        },
+        "metadata": {},
+        "created": 11
+      },
+      "21": {
+        "id": 21,
+        "name": "Yukkuri Sequence",
+        "label": "Forest",
+        "kind": {
+          "Sequence": {
+            "settings": {
+              "width": 1920,
+              "height": 1080,
+              "frame_rate": {
+                "num": 24000,
+                "den": 1001
+              },
+              "par": [
+                1,
+                1
+              ],
+              "sample_rate": 48000,
+              "drop_frame": false,
+              "preset": "HD 1080p 23.976",
+              "audio_master": "Stereo",
+              "preview_codec": "ProRes 422",
+              "max_bit_depth": false,
+              "max_render_quality": false,
+              "working_space": "Rec. 709",
+              "color": {
+                "working": "Rec709",
+                "wide_gamut": false,
+                "auto_tone_map": true
+              }
+            },
+            "video_tracks": [
+              {
+                "id": 15,
+                "kind": "Video",
+                "name": "V1 Background",
+                "items": [
+                  {
+                    "id": 30,
+                    "item": 5,
+                    "name": "background.png",
+                    "label": "Iris",
+                    "start": 0,
+                    "duration": 2032128000000,
+                    "source_in": 0,
+                    "speed": 1.0,
+                    "reverse": false,
+                    "enabled": true,
+                    "link": null,
+                    "group": null,
+                    "effects": [
+                      {
+                        "effect": "motion",
+                        "enabled": true,
+                        "params": {
+                          "anchor": {
+                            "value": {
+                              "Vec2": {
+                                "x": 960.0,
+                                "y": 540.0
+                              }
+                            }
+                          },
+                          "anti_flicker": {
+                            "value": {
+                              "Float": 0.0
+                            }
+                          },
+                          "position": {
+                            "value": {
+                              "Vec2": {
+                                "x": 960.0,
+                                "y": 540.0
+                              }
+                            }
+                          },
+                          "rotation": {
+                            "value": {
+                              "Float": 0.0
+                            }
+                          },
+                          "scale": {
+                            "value": {
+                              "Float": 100.0
+                            }
+                          },
+                          "scale_width": {
+                            "value": {
+                              "Float": 100.0
+                            }
+                          },
+                          "uniform_scale": {
+                            "value": {
+                              "Bool": true
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "effect": "opacity",
+                        "enabled": true,
+                        "params": {
+                          "blend": {
+                            "value": {
+                              "Choice": 0
+                            }
+                          },
+                          "opacity": {
+                            "value": {
+                              "Float": 100.0
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "effect": "time_remap",
+                        "enabled": true,
+                        "params": {
+                          "speed": {
+                            "value": {
+                              "Float": 100.0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "markers": [],
+                    "gain_db": 0.0,
+                    "frame_hold": null,
+                    "scale_to_frame": false
+                  }
+                ],
+                "transitions": [],
+                "locked": false,
+                "sync_lock": true,
+                "enabled": true,
+                "muted": false,
+                "solo": false,
+                "channels": "Stereo",
+                "volume_db": 0.0,
+                "pan": 0.0,
+                "effects": [],
+                "mixer": {
+                  "mode": "Read",
+                  "output": null,
+                  "record_arm": false,
+                  "solo_safe": false,
+                  "input_map": "Stereo"
+                }
+              },
+              {
+                "id": 16,
+                "kind": "Video",
+                "name": "V2 Slide",
+                "items": [
+                  {
+                    "id": 31,
+                    "item": 6,
+                    "name": "slide_topic.png",
+                    "label": "Iris",
+                    "start": 254016000000,
+                    "duration": 1524096000000,
+                    "source_in": 0,
+                    "speed": 1.0,
+                    "reverse": false,
+                    "enabled": true,
+                    "link": null,
+                    "group": null,
+                    "effects": [
+                      {
+                        "effect": "motion",
+                        "enabled": true,
+                        "params": {
+                          "anchor": {
+                            "value": {
+                              "Vec2": {
+                                "x": 960.0,
+                                "y": 540.0
+                              }
+                            }
+                          },
+                          "anti_flicker": {
+                            "value": {
+                              "Float": 0.0
+                            }
+                          },
+                          "position": {
+                            "value": {
+                              "Vec2": {
+                                "x": 960.0,
+                                "y": 540.0
+                              }
+                            }
+                          },
+                          "rotation": {
+                            "value": {
+                              "Float": 0.0
+                            }
+                          },
+                          "scale": {
+                            "value": {
+                              "Float": 100.0
+                            }
+                          },
+                          "scale_width": {
+                            "value": {
+                              "Float": 100.0
+                            }
+                          },
+                          "uniform_scale": {
+                            "value": {
+                              "Bool": true
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "effect": "opacity",
+                        "enabled": true,
+                        "params": {
+                          "blend": {
+                            "value": {
+                              "Choice": 0
+                            }
+                          },
+                          "opacity": {
+                            "value": {
+                              "Float": 100.0
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "effect": "time_remap",
+                        "enabled": true,
+                        "params": {
+                          "speed": {
+                            "value": {
+                              "Float": 100.0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "markers": [],
+                    "gain_db": 0.0,
+                    "frame_hold": null,
+                    "scale_to_frame": false
+                  }
+                ],
+                "transitions": [],
+                "locked": false,
+                "sync_lock": true,
+                "enabled": true,
+                "muted": false,
+                "solo": false,
+                "channels": "Stereo",
+                "volume_db": 0.0,
+                "pan": 0.0,
+                "effects": [],
+                "mixer": {
+                  "mode": "Read",
+                  "output": null,
+                  "record_arm": false,
+                  "solo_safe": false,
+                  "input_map": "Stereo"
+                }
+              },
+              {
+                "id": 17,
+                "kind": "Video",
+                "name": "V3 Reimu",
+                "items": [
+                  {
+                    "id": 32,
+                    "item": 7,
+                    "name": "character_reimu.png",
+                    "label": "Iris",
+                    "start": 0,
+                    "duration": 2032128000000,
+                    "source_in": 0,
+                    "speed": 1.0,
+                    "reverse": false,
+                    "enabled": true,
+                    "link": null,
+                    "group": null,
+                    "effects": [
+                      {
+                        "effect": "motion",
+                        "enabled": true,
+                        "params": {
+                          "anchor": {
+                            "value": {
+                              "Vec2": {
+                                "x": 960.0,
+                                "y": 540.0
+                              }
+                            }
+                          },
+                          "anti_flicker": {
+                            "value": {
+                              "Float": 0.0
+                            }
+                          },
+                          "position": {
+                            "value": {
+                              "Vec2": {
+                                "x": 400.0,
+                                "y": 680.0
+                              }
+                            }
+                          },
+                          "rotation": {
+                            "value": {
+                              "Float": 0.0
+                            }
+                          },
+                          "scale": {
+                            "value": {
+                              "Float": 100.0
+                            }
+                          },
+                          "scale_width": {
+                            "value": {
+                              "Float": 100.0
+                            }
+                          },
+                          "uniform_scale": {
+                            "value": {
+                              "Bool": true
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "effect": "opacity",
+                        "enabled": true,
+                        "params": {
+                          "blend": {
+                            "value": {
+                              "Choice": 0
+                            }
+                          },
+                          "opacity": {
+                            "value": {
+                              "Float": 100.0
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "effect": "time_remap",
+                        "enabled": true,
+                        "params": {
+                          "speed": {
+                            "value": {
+                              "Float": 100.0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "markers": [],
+                    "gain_db": 0.0,
+                    "frame_hold": null,
+                    "scale_to_frame": false
+                  }
+                ],
+                "transitions": [],
+                "locked": false,
+                "sync_lock": true,
+                "enabled": true,
+                "muted": false,
+                "solo": false,
+                "channels": "Stereo",
+                "volume_db": 0.0,
+                "pan": 0.0,
+                "effects": [],
+                "mixer": {
+                  "mode": "Read",
+                  "output": null,
+                  "record_arm": false,
+                  "solo_safe": false,
+                  "input_map": "Stereo"
+                }
+              },
+              {
+                "id": 18,
+                "kind": "Video",
+                "name": "V4 Marisa",
+                "items": [
+                  {
+                    "id": 33,
+                    "item": 8,
+                    "name": "character_marisa.png",
+                    "label": "Iris",
+                    "start": 0,
+                    "duration": 2032128000000,
+                    "source_in": 0,
+                    "speed": 1.0,
+                    "reverse": false,
+                    "enabled": true,
+                    "link": null,
+                    "group": null,
+                    "effects": [
+                      {
+                        "effect": "motion",
+                        "enabled": true,
+                        "params": {
+                          "anchor": {
+                            "value": {
+                              "Vec2": {
+                                "x": 960.0,
+                                "y": 540.0
+                              }
+                            }
+                          },
+                          "anti_flicker": {
+                            "value": {
+                              "Float": 0.0
+                            }
+                          },
+                          "position": {
+                            "value": {
+                              "Vec2": {
+                                "x": 1520.0,
+                                "y": 680.0
+                              }
+                            }
+                          },
+                          "rotation": {
+                            "value": {
+                              "Float": 0.0
+                            }
+                          },
+                          "scale": {
+                            "value": {
+                              "Float": 100.0
+                            }
+                          },
+                          "scale_width": {
+                            "value": {
+                              "Float": 100.0
+                            }
+                          },
+                          "uniform_scale": {
+                            "value": {
+                              "Bool": true
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "effect": "opacity",
+                        "enabled": true,
+                        "params": {
+                          "blend": {
+                            "value": {
+                              "Choice": 0
+                            }
+                          },
+                          "opacity": {
+                            "value": {
+                              "Float": 100.0
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "effect": "time_remap",
+                        "enabled": true,
+                        "params": {
+                          "speed": {
+                            "value": {
+                              "Float": 100.0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "markers": [],
+                    "gain_db": 0.0,
+                    "frame_hold": null,
+                    "scale_to_frame": false
+                  }
+                ],
+                "transitions": [],
+                "locked": false,
+                "sync_lock": true,
+                "enabled": true,
+                "muted": false,
+                "solo": false,
+                "channels": "Stereo",
+                "volume_db": 0.0,
+                "pan": 0.0,
+                "effects": [],
+                "mixer": {
+                  "mode": "Read",
+                  "output": null,
+                  "record_arm": false,
+                  "solo_safe": false,
+                  "input_map": "Stereo"
+                }
+              }
+            ],
+            "audio_tracks": [
+              {
+                "id": 19,
+                "kind": "Audio",
+                "name": "A1 Dialogue",
+                "items": [
+                  {
+                    "id": 34,
+                    "item": 9,
+                    "name": "voice_01.wav",
+                    "label": "Iris",
+                    "start": 127008000000,
+                    "duration": 889056000000,
+                    "source_in": 0,
+                    "speed": 1.0,
+                    "reverse": false,
+                    "enabled": true,
+                    "link": null,
+                    "group": null,
+                    "effects": [
+                      {
+                        "effect": "volume",
+                        "enabled": true,
+                        "params": {
+                          "bypass": {
+                            "value": {
+                              "Bool": false
+                            }
+                          },
+                          "level": {
+                            "value": {
+                              "Float": -8.0
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "effect": "channel_volume",
+                        "enabled": true,
+                        "params": {
+                          "bypass": {
+                            "value": {
+                              "Bool": false
+                            }
+                          },
+                          "left": {
+                            "value": {
+                              "Float": 0.0
+                            }
+                          },
+                          "right": {
+                            "value": {
+                              "Float": 0.0
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "effect": "panner",
+                        "enabled": true,
+                        "params": {
+                          "balance": {
+                            "value": {
+                              "Float": 0.0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "markers": [],
+                    "gain_db": 0.0,
+                    "frame_hold": null,
+                    "scale_to_frame": false
+                  },
+                  {
+                    "id": 35,
+                    "item": 10,
+                    "name": "voice_02.wav",
+                    "label": "Iris",
+                    "start": 1066867200000,
+                    "duration": 889056000000,
+                    "source_in": 0,
+                    "speed": 1.0,
+                    "reverse": false,
+                    "enabled": true,
+                    "link": null,
+                    "group": null,
+                    "effects": [
+                      {
+                        "effect": "volume",
+                        "enabled": true,
+                        "params": {
+                          "bypass": {
+                            "value": {
+                              "Bool": false
+                            }
+                          },
+                          "level": {
+                            "value": {
+                              "Float": -8.0
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "effect": "channel_volume",
+                        "enabled": true,
+                        "params": {
+                          "bypass": {
+                            "value": {
+                              "Bool": false
+                            }
+                          },
+                          "left": {
+                            "value": {
+                              "Float": 0.0
+                            }
+                          },
+                          "right": {
+                            "value": {
+                              "Float": 0.0
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "effect": "panner",
+                        "enabled": true,
+                        "params": {
+                          "balance": {
+                            "value": {
+                              "Float": 0.0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "markers": [],
+                    "gain_db": 0.0,
+                    "frame_hold": null,
+                    "scale_to_frame": false
+                  }
+                ],
+                "transitions": [],
+                "locked": false,
+                "sync_lock": true,
+                "enabled": true,
+                "muted": false,
+                "solo": false,
+                "channels": "Stereo",
+                "volume_db": 0.0,
+                "pan": 0.0,
+                "effects": [],
+                "mixer": {
+                  "mode": "Read",
+                  "output": null,
+                  "record_arm": false,
+                  "solo_safe": false,
+                  "input_map": "Stereo"
+                }
+              },
+              {
+                "id": 20,
+                "kind": "Audio",
+                "name": "A2 BGM",
+                "items": [
+                  {
+                    "id": 36,
+                    "item": 11,
+                    "name": "bgm.wav",
+                    "label": "Iris",
+                    "start": 0,
+                    "duration": 2032128000000,
+                    "source_in": 0,
+                    "speed": 1.0,
+                    "reverse": false,
+                    "enabled": true,
+                    "link": null,
+                    "group": null,
+                    "effects": [
+                      {
+                        "effect": "volume",
+                        "enabled": true,
+                        "params": {
+                          "bypass": {
+                            "value": {
+                              "Bool": false
+                            }
+                          },
+                          "level": {
+                            "value": {
+                              "Float": -16.0
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "effect": "channel_volume",
+                        "enabled": true,
+                        "params": {
+                          "bypass": {
+                            "value": {
+                              "Bool": false
+                            }
+                          },
+                          "left": {
+                            "value": {
+                              "Float": 0.0
+                            }
+                          },
+                          "right": {
+                            "value": {
+                              "Float": 0.0
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "effect": "panner",
+                        "enabled": true,
+                        "params": {
+                          "balance": {
+                            "value": {
+                              "Float": 0.0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "markers": [],
+                    "gain_db": 0.0,
+                    "frame_hold": null,
+                    "scale_to_frame": false
+                  }
+                ],
+                "transitions": [],
+                "locked": false,
+                "sync_lock": true,
+                "enabled": true,
+                "muted": false,
+                "solo": false,
+                "channels": "Stereo",
+                "volume_db": 0.0,
+                "pan": 0.0,
+                "effects": [],
+                "mixer": {
+                  "mode": "Read",
+                  "output": null,
+                  "record_arm": false,
+                  "solo_safe": false,
+                  "input_map": "Stereo"
+                }
+              }
+            ],
+            "markers": [],
+            "mark_in": null,
+            "mark_out": null,
+            "work_area": null,
+            "start_timecode": 0,
+            "master_volume_db": 0.0,
+            "master_effects": [],
+            "master_mixer": {
+              "mode": "Read",
+              "output": null,
+              "record_arm": false,
+              "solo_safe": false,
+              "input_map": "Stereo"
+            },
+            "submix_tracks": [],
+            "caption_tracks": []
+          }
+        },
+        "metadata": {},
+        "created": 21
+      }
+    },
+    "next_id": 50
+  },
+  "view": {
+    "open_sequences": [
+      21
+    ],
+    "active_sequence": 21,
+    "sequences": {},
+    "playheads": {
+      "21": 0
+    }
+  }
+}
