@@ -173,6 +173,7 @@ fn ensure_opacity_param(item: &mut TrackItem) -> Option<&mut filmcraft_project::
 }
 
 /// Check if a timeline time is within any of the voiced segments (timeline absolute time).
+#[allow(dead_code)]
 fn is_time_voiced(t: Tick, tl_segments: &[(Tick, Tick)]) -> bool {
     tl_segments.iter().any(|&(s, e)| t >= s && t < e)
 }
